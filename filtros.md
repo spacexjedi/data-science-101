@@ -30,6 +30,8 @@ Transformadas Wavelet   são   utilizadas   em   diversas   áreas,   como   em 
 A  Transformada  de  Fourier  (TF)  expande  sinais  no  domínio  do  tempo  em funções de bases ortogonais (ondas senoidais e co-senoidais), revelando assim as componentes de frequência dos sinais. Porém, esse método não é capaz de localizar  no  tempo  as  componentes  de  frequência.  Por  isso,  esse  método  é melhor utilizado na análise de sinais estacionários.   
 
 
+![car](https://github.com/spacexjedi/data-science-101/blob/ee1ac4a0fe34c7366a1f683f025d9a804b31d69c/img/car.png)  
+
 ## REFERÊNCIAS
 
 https://compmus.ime.usp.br/sites/ime.usp.br.compmus/files/2016_03_16_Seminario_Compmus___Miranda.pdf  
