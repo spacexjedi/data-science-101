@@ -1,7 +1,7 @@
 - Como escolher quais eletrodos utilizar?  
 Os que trazem melhor informação para sua análise.
 
-- A média de Todos os eletrodos é uma boa ideia?
+- A média de Todos os eletrodos é uma boa ideia?  
 Acho que só dos eletrodos depois da filtragem.
 
 
