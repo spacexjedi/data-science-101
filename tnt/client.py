@@ -4,7 +4,7 @@ import paho.mqtt.subscribe as subscribe
 
 topics = ['tnt']
 user = ''
-password = ''
+pwd = ''
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
@@ -17,7 +17,7 @@ def on_connect(client, userdata, flags, rc):
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
     print(msg.topic+" "+str(msg.payload))
-
+#username_pw_set(user, password=pwd)
 client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
@@ -29,7 +29,7 @@ client.connect("tnt-iot.maratona.dev", 30573, 60)
 # Other loop*() functions are available that give a threaded interface and a
 # manual interface.
 
-m = subscribe.simple(topics, hostname="tnt-iot.maratona.dev", retained=False, msg_count=2)
+m = subscribe.simple(topics, hostname="tnt-iot.maratona.dev", port=30573, retained=False, msg_count=2, auth = {‘username’:”<username>”, ‘password’:”<password>”})
 for a in m:
     print(a.topic)
     print(a.payload)
