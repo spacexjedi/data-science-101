@@ -3,6 +3,8 @@ import paho.mqtt.client as mqtt
 import paho.mqtt.subscribe as subscribe
 
 topics = ['tnt']
+user = ''
+password = ''
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
