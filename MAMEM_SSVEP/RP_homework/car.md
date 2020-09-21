@@ -1,9 +1,8 @@
 - Como escolher quais eletrodos utilizar?  
-Os que trazem melhor informação para sua análise.
+Os que trazem melhor informação para sua análise, que são os que processam a informação visual.
 
 - A média de Todos os eletrodos é uma boa ideia?  
-Acho que só dos eletrodos depois da filtragem.
-
+Não. Acho que só dos eletrodos depois da filtragem, porque tem eletrodos que causam ruídos no experimento.
 
 - Como utilizar as informações de retorno do método set_eeg_reference?  
 
