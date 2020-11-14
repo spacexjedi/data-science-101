@@ -27,7 +27,7 @@ def load_files(file):
 		data = f.readlines()
 	list_data = []
 	for i in range(len(data)):
-		if >= 8:
+		if i >= 8:
 			list_data.append(data[i])
 	return list_data
 
